@@ -1,4 +1,4 @@
-# react-tree-condition
+# react-pretty-condition
 
 ## Install
 ```
