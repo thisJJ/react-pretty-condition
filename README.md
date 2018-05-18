@@ -33,7 +33,7 @@ import {
 } from 'react-pretty-treeview';
 ```
 
-### IF Condition
+### Condition
 
 ```javascript
  <If condition={ 1 === 1 ? true : false  }>
