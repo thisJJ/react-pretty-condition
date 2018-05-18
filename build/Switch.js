@@ -19,10 +19,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 const Switch = exports.Switch = ({ value, children }) => {
   const renderElement = _react2.default.Children.map(children, child => {
-    if (child.props.value === value) return child.props.children;
+    if ((0, _lodash.get)(child, 'props.value', undefined) === value) return (0, _lodash.get)(child, 'props.children', null);
   });
 
-  return !(0, _lodash.isEmpty)(renderElement) ? renderElement[0] : null;
+  return !(0, _lodash.isEmpty)(renderElement) ? (0, _lodash.get)(renderElement, '[0]', null) : null;
 };
 
 Switch.propTypes = {
