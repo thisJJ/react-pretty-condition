@@ -30,7 +30,7 @@ import {
   If,
   Switch,
   Case
-} from 'react-pretty-treeview';
+} from 'react-pretty-condition';
 ```
 
 ### Condition
